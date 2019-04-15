@@ -17,6 +17,16 @@ h2 {
 	text-transform: uppercase;
 }
 
+h3 {
+	font-family: "Raleway", sans-serif;
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: left;
+}
+
 p {
 	font-family: "Droid Serif", serif;
 	line-height: 26px;
@@ -98,4 +108,8 @@ footer {
 
 a:hover {
 	border: 2px solid white;
+}
+
+#reset {
+	float: right;
 }
