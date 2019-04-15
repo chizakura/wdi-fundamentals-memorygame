@@ -17,15 +17,14 @@ h2 {
 	text-transform: uppercase;
 }
 
-h3 {
+h3, button {
 	font-family: "Raleway", sans-serif;
 	color: #0D2C40;
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 20px;
 	text-transform: uppercase;
-	text-align: left;
-	margin: 25px 0;
+	margin: 20px 0 0;
 }
 
 p {
@@ -111,6 +110,14 @@ a:hover {
 	border: 2px solid white;
 }
 
+#score {
+	float: left;
+}
+
 #reset {
 	float: right;
+}
+
+button {
+	border: none;
 }

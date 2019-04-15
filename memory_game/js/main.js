@@ -81,4 +81,9 @@ var createBoard = function () {
 	}
 }
 
+var resetGame = function () {
+	location.reload();
+}
+
 createBoard();
+document.getElementById("reset").addEventListener("click", resetGame);
